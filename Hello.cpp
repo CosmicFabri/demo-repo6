@@ -10,6 +10,11 @@ int main() {
     for (int i = 0; i < length; i++)
         cout << arr[i] << " ";
 
+    cout << endl;
+
+    for (int i = 0; i < length; i++) 
+        cout << arr[i] * 2 << " ";
+
     getch();
     return 0;
 }
